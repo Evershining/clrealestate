@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand .logo-text .vertical-line {
+    border-left: 2px solid #a4a4a4; 
+    margin-left: 5px;
+  }
+  .nav-link:hover{
+    border-bottom: 2px solid rgb(0, 74, 111);
+  }
+  .logo-text{
+    font-size: 40px;
+  }
+  .vertical-line{
+    font-size: 20px;
+  }
+  .container2{
+    width: 100%;
+    margin: auto;
+    /* margin-top: 50px; */
+  }
+  .container2 img{
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+  }
+  .container2 .about{
+    text-align: center;
+    position: relative;
+    top: -150px;
+    font-size: 50px;
+    
+  }
+  .container1{
+    background-image: url(../realestateproject/images/image18.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 63vh;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+    margin-top: 100px;
+  }
+  
+  .heading{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .anime{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+  }
+  @keyframes moveup{
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  .text{
+    font-size: 18px;
+    font-weight: 600;
+  } 
+  #overlay {
+    background-color: red;
+
+  }
+
+  video-container{
+    width: 50%;
+    margin: auto;
+  }
+  .mini-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .midi1{
+    width:50% ;
+    font-size: 18px; 
+    text-align: justify;
+  }
+  
+  .midi2{
+    display: flex;
+    width: 100%;
+  }
+  .midi2 img:first-child{
+      border-radius: 10px 0 0 10px;
+      display: block;
+  }
+  .midi2 img:last-child{
+    border-radius: 0 10px 10px 0;
+    display: block;
+  }
+  p .midi1{
+    margin-bottom: 20px;
+  }
+  .container3{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .team-description{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .team-text{
+    font-size: 18px;
+  }
+ 
+  .image-gallery{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+  }
+  .gallery{
+    width: 100%;
+    justify-content: center;
+    
+  }
+  .gallery img{
+    border: 10px solid #a4a4a4;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .description{
+    position: relative;
+    background-color: #FFF;
+    box-shadow: 0 3px 7px #a4a4a4;
+    padding: 10px;
+    top: -50px;
+    z-index: -1;
+  }
+  .description > h6{
+    margin-top: 50px;
+  }
+  .picture{
+    width: 50%;
+  }
+  .carousel-inner{
+    width: 100%;
+  }
+
+
+  .footer{
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 40px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+  }
+  .contact{
+    width: 25%;
+  }
+  ul, li{
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  li:hover{
+  color:#a4a4a4 ;
+  }
+  
+  .quick-link{
+    width: 20%;
+   
+    
+  }
+  .newsletter{
+    width: 25%;
+   
+  }
+  .latest-listing{
+    width: 25%;
+  }
+  .footer-link{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-link:hover{
+    color: #a4a4a4;
+  }
+  
+  
+  /* media query */
+@media screen and (max-width: 696px) {
+  
+  .container2{
+    margin-top: 100px;
+  }
+  .container2 .about{
+    position: relative;
+    top: -80px;
+    font-size: 30px;
+  }
+  .mini-container{
+    display: block;
+    margin-top: 0;
+  }
+  .midi1{
+    width: 100%;
+  }
+  .midi2 > img{
+    width: 50%;
+  }
+  .image-gallery{
+    display: block;
+  }
+  .midi2 img{
+    height: 300px;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+  }
+  .footer > div{
+    width: 100% !important;
+  }
+  .images span{
+    display: block;
+  }
+  .input-group{
+    width: 100%;
+
+  }
+  /* .heading2{
+    font-size: 20px;
+  }
+  .text1{
+    font-size: 16px;
+  } */
+}
+.image-container{
+  background-image: url(../realestateproject/images/image10.webp);
+  object-fit: cover;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  
+}

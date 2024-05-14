@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand .logo-text .vertical-line {
+    border-left: 2px solid #a4a4a4; 
+    margin-left: 5px;
+  }
+  .nav-link:hover{
+      border-bottom: 2px solid rgb(0, 74, 111);
+  }
+  .logo-text{
+    font-size: 40px;
+  }
+  .vertical-line{
+    font-size: 20px;
+  }
+  .container1{
+    background-image: url(../realestateproject/images/image18.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 63vh;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+    margin-top: 100px;
+  }
+  
+  .heading{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .anime{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+  }
+  @keyframes moveup{
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  .text{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .container2{
+    display: flex;
+    width: 100%;
+    height: 720px;
+    margin: auto;
+    padding: 80px 70px;
+   
+  }
+  .info{
+    width: 40%;
+    background-color: rgb(0, 74, 111);
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    border: 1px solid rgb(27, 26, 26);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+  }
+.form{
+    width: 60%;
+    padding-left: 80px;
+    padding-top: 20px;
+    /* border: 1px solid rgb(156, 155, 155); */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    box-shadow: 2px 2px 7px 0px rgb(228, 227, 227);
+}
+custom-input{
+    margin-bottom: 20px;
+}
+h2{
+    padding-bottom: 20px;
+}
+.text1{
+    font-size: 13px;
+    font-weight: 600;
+    padding:0 5px;
+    padding-bottom: 30px;
+}
+.contacts{
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 10px;
+    
+}
+/* .textarea{
+    height: 100px;
+    width: 50%;
+    border: 1px solid rgb(234, 232, 232);
+    border-radius: 5px;
+} */
+
+button{
+    background-color:rgb(236, 55, 55) ;
+    color: white;
+    border: none;
+    width: 150px;
+    padding: 8px; 
+   
+   
+}
+button:hover{
+    background-color: white;
+    color: rgb(236, 55, 55);
+    border: 2px solid rgb(236, 55, 55);
+}
+button[type=submit]{
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 295px;
+    margin-top: 20px;
+}
+.container3{
+    margin-top: 40px;
+    padding: 5px;
+    /* margin-left: 5px; */
+}
+.footer{
+  display: flex;
+  width: 100%;
+  color: white;
+  padding: 40px;
+  padding-bottom: 100px;
+}
+.contact{
+  width: 25%;
+}
+ul, li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+li:hover{
+color: #a4a4a4;
+}
+
+.quick-link{
+  width: 20%;
+ 
+  
+}
+.newsletter{
+  width: 25%;
+ 
+}
+.latest-listing{
+  width: 25%;
+}
+.footer-link{
+  text-decoration: none;
+  color: white;
+}
+.footer-link:hover{
+  color: #a4a4a4;
+}
+
+  /* media query */
+@media screen and (max-width: 696px) {
+  .heading{
+    font-size: 40px;
+  }
+  .container1{
+    padding: 80px;
+    height: 50vh;
+    
+  }
+  .info > h2{
+    font-size: 30px;
+  }
+  .text{
+    font-size: 18px;
+  }
+  .text1{
+    font-size: 18px;
+  }
+  .container2{
+    padding: 0;
+    display: block;
+  }
+  .info{
+    width: 100%;
+    padding-bottom: 20px; 
+    border-radius: 0;
+  }
+  .form{
+    width: 100%;
+    padding-bottom:20px ;
+    padding-left: 30px;
+  }
+  .form > h2{
+    font-size: 25px;
+  }
+  button[type=submit]{
+    margin: 0;
+  }
+  .contacts{
+    font-size: 18px;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 200px;
+  }
+  .footer > div{
+    width: 100% !important;
+  }
+  .images span{
+    display: block;
+  }
+  .heading2{
+    font-size: 20px;
+  }
+  .text1{
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand .logo-text .vertical-line {
+    border-left: 2px solid #a4a4a4; 
+    margin-left: 5px;
+  }
+  .nav-link:hover{
+    border-bottom: 2px solid rgb(0, 74, 111);
+  }
+  .logo-text{
+    font-size: 40px;
+  }
+  .vertical-line{
+    font-size: 20px;
+  }
+  
+  
+  .container2{
+    background-image: url(../realestateproject/images/DJI_0138-Optimised.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    
+    
+  }
+  #overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+     z-index: -1; 
+  }
+  .heading{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 280px;
+    color: #fff;
+  }
+  .anime{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 1s linear forwards;
+  }
+  @keyframes moveup{
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  .text1{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #060606;
+  }
+  .buttons{
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  #custom-button{
+    border-radius: 50px;
+    padding:10px 40px;
+    font-size: 20px;
+    margin: 5px;
+  }
+  #search-button{
+    border-radius: 30px;
+    background-color: #020251;
+    padding:10px 20px;
+  }
+  
+  #my-button{
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    font-size: 20px;
+    /* margin-left: 30px; */
+    padding:5px 20px;
+    width: 250px;
+  }
+  .mini-section1{
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    margin-top: 30px;
+    border: 10px solid rgba(78, 76, 76, 0.103);
+}
+#heading2{
+  
+  text-align: center;
+  font-size: 40px;
+  padding-top: 70px;
+}
+.mini-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.midi{
+  width: 280px;
+  height: 200px;
+  background-image: url(../realestateproject/images/image3.jpeg);
+  object-fit: cover;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 15px 10px;
+  transition: 400ms;
+ 
+}
+.midi:hover{
+  transform: scale(1.03);
+  box-shadow: 4px 7px 7px 0px #00000042;
+  /* box-shadow: #a4a4a4; */
+  
+}
+.midi1{
+  width: 280px;
+  height: 200px;
+  background-image: url(../realestateproject/images/image6.jpeg);
+  object-fit: cover;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 15px 10px;
+  transition: 400ms;
+}
+.midi1:hover{
+  transform: scale(1.03);
+  box-shadow: 4px 7px 7px 0px #00000042;
+}
+.midi2{
+  width: 280px;
+  height: 200px;
+  background-image: url(../realestateproject/images/image4.jpeg);
+  object-fit: cover;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 15px 10px;
+  transition: 400ms;
+}
+.midi2:hover{
+  transform: scale(1.03);
+  box-shadow: 4px 7px 7px 0px #00000042;
+}
+.midi3{
+  width: 280px;
+  height: 200px;
+  background-image: url(../realestateproject/images/image7.jpeg);
+  object-fit: cover;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px; 
+  margin: 15px 10px;
+  transition: 400ms;
+}
+.midi3:hover{
+  transform: scale(1.03);
+  box-shadow: 4px 7px 7px 0px #00000042;
+}
+.midi4{
+  width: 280px;
+  height: 200px;
+  background-image: url(../realestateproject/images/image8.jpeg);
+  object-fit: cover;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  float: left;
+  margin: 15px 10px;
+  transition: 400ms;
+}
+.midi4:hover{
+  transform: scale(1.03);
+  box-shadow: 4px 7px 7px 0px #00000042;
+}
+#img-button{
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(2, 2, 61);
+  color: #fff;
+  padding: 5px 10px;
+  margin: 8px ;
+}
+#img-btn{
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 8px;
+}
+.price{
+  font-size:20px ;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  top: 40px;
+  left: 10px;
+}
+.description{
+  padding: 10px; 
+}
+.text{
+  color: red;
+  margin-top: 80px;
+}
+.mini-container{
+  margin-top: 40px;
+}
+
+#heading3{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 40px;
+ 
+}
+
+#rent-button{
+  display: block;
+  margin: 100px auto 0 auto;
+  padding: 12px ;
+  font-size: 18px;
+  background-color: rgb(8, 28, 81);
+  color: #fff;
+  border: none;
+  border-radius: 5px; 
+  transition: 1s;
+
+}
+#rent-button:hover{
+background-color: orange;
+color: #fff;
+}
+.gallery{
+  display: flex;
+  width: 100%;
+  border: 1px solid rgb(223, 222, 222);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin: auto;
+  height: 120px;
+  transition: 400ms;
+  text-align: center;
+}
+.gallery:hover{
+  transform: scale(1.03);
+  box-shadow: 4px 7px 7px 0px #00000042;
+}
+.image{
+  width: 50%;
+  border-radius: 10px;
+}
+.text2{
+  width: 50%;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.image-gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  
+}
+#img{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.container5{
+  background-image:url(../realestateproject/images/DJI_0078-20-Percent.jpg);
+  object-fit: cover;
+  padding: 20px;
+  margin: auto;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.about-us{
+  width: 70%;
+  margin: 50px;
+  border-radius: 10px;
+  height: 600px;
+  background-color: #fff;
+  padding: 30px;
+}
+#text3{
+margin-top: 20px;
+font-size: 16px;
+}
+#readmore-button{
+  background-color: #020251;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 700;
+  margin-top: 50px;
+  transition: 0.5s;
+}
+#readmore-button:hover{
+  border-radius: 50px;
+}
+.footer{
+  display: flex;
+  width: 100%;
+  color: white;
+  padding: 40px;
+  padding-bottom: 100px;
+}
+.contact{
+  width: 25%;
+}
+ul, li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+li:hover{
+color: #a4a4a4;
+}
+
+.quick-link{
+  width: 20%;
+ 
+  
+}
+.newsletter{
+  width: 25%;
+ 
+}
+.latest-listing{
+  width: 25%;
+}
+.footer-link{
+  text-decoration: none;
+  color: white;
+}
+.footer-link:hover{
+  color: #a4a4a4;
+}
+
+/* media query */
+@media screen and (max-width: 696px) {
+  .mini-container{
+    flex-direction: column;
+  }
+  .image-gallery{
+    grid-template-columns: auto;
+  }
+  .heading{
+    font-size: 40px;
+    padding: 10px;
+    padding-top: 150px;
+  }
+  .text{
+    font-size: 15px;
+  }
+  .text1{
+    font-size: 18px;
+  }
+  #text3{
+    font-size: 10px;
+  }
+  .midi{
+    margin-top: 75px;
+  }
+  .midi1{
+    margin-top: 75px;
+  }
+  .midi2{
+    margin-top: 75px;
+  }
+  .midi3{
+    margin-top: 75px;
+  }
+  .buttons{
+    margin: 0 10px;
+    text-align: center;
+  }
+  .buttons > #custom-button{
+    padding: 10px 15px;
+  }
+  .mini-section1{
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .mini-section1{
+    display: block;
+  }
+  #my-button{
+    display: block;
+    width: calc(100% - 40px);
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer > div{
+    width: 100% !important;
+  }
+  .images span{
+    display: block;
+  }
+  .heading2{
+    font-size: 20px;
+  }
+  .text1{
+    font-size: 16px;
+  }
+  .midi, .midi1, .midi2, .midi3, .midi4{
+    width: 90%;
+  }
+  .description{
+    margin-top: 50px;
+  }
+  .about-us{
+    width: 100%;
+    margin: 0;
+  }
+  .about-us h1{
+    font-size: 30px;
+  }
+  #text3{
+    font-size: 13.5px;
+  }
+  #readmore-button{
+    margin: 0;
+  }
+}
+
+    

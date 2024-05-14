@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand .logo-text .vertical-line {
+    border-left: 2px solid #a4a4a4; 
+    margin-left: 5px;
+  }
+  .nav-link:hover{
+    border-bottom: 2px solid rgb(0, 74, 111);
+  }
+  .logo-text{
+    font-size: 40px;
+  }
+  .vertical-line{
+    font-size: 20px;
+  }
+  nav{
+    position: static;
+  }
+  
+  
+#heading2{
+  
+    text-align: center;
+    font-size: 40px;
+    padding-top: 150px;
+  }
+  .anime{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+  }
+  @keyframes moveup{
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  .text1{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .mini-container{
+    /* display: flex; */
+  margin-left: 5px;
+  }
+  #c-fluid{
+    display: flex;
+  }
+  #c-fluid2{
+    margin-top: 150px;
+  }
+  .midi{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house4.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+   
+  }
+  .midi:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+    /* box-shadow: #a4a4a4; */
+    
+  }
+  .midi1{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house5.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi1:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi2{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house9.jpeg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi2:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi3{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house1.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px; 
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi3:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi4{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house7.webp);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi4:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi5{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/Ikoyi-Thumbnail.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi5:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi6{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house2.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi6:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi7{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house8.png);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi7:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi8{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house10.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi8:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi9{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house11.webp);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi9:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi10{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house6.webp);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi10:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  .midi11{
+    width: 400px;
+    height: 300px;
+    background-image: url(../realestateproject/images/house3.jpg);
+    object-fit: cover;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 400ms;
+  }
+  .midi11:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  #img-button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 61);
+    color: #fff;
+    padding: 5px 10px;
+    margin: 8px ;
+  }
+  #img-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  .price{
+    font-size:20px ;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+    top: 280px;
+    left: 10px;
+  }
+  .description{
+    padding: 10px; 
+    margin-top: 280px;
+    border: 1px solid rgb(211, 205, 205);
+  }
+  .text{
+    color: red;
+   
+  }
+  #heading3{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+   
+  }
+  .footer{
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 40px;
+    padding-bottom: 100px;
+    margin-top: 150px;
+  }
+  .contact{
+    width: 25%;
+  }
+  ul, li{
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  li:hover{
+  color: #a4a4a4;
+  }
+  
+  .quick-link{
+    width: 20%;
+   
+    
+  }
+  .newsletter{
+    width: 25%;
+   
+  }
+  .latest-listing{
+    width: 25%;
+  }
+  .footer-link{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-link:hover{
+    color: #a4a4a4;
+  }
+   /* media query */
+@media screen and (max-width: 696px) {
+  
+  #c-fluid{
+    flex-direction: column;
+  }
+  .midi{
+    margin-left: 0;
+  }
+  .midi1{
+    margin-top: 150px;
+    margin-left: 0;
+  }
+  .midi2{
+    margin-top: 150px;
+    margin-left: 0;
+  }
+  .midi3{
+    margin-left: 0;
+  }
+  .midi4{
+    margin-left: 0;
+  }
+  .midi5{
+    margin-top: 150px;
+    margin-left: 0;
+  }
+  .midi6{
+    margin-top: 150px;
+    margin-left: 0;
+  }
+  .midi7{
+    margin-left: 0;
+  }
+  .midi8{
+    margin-top: 150px;
+    margin-left: 0;
+  }
+  .midi9{
+    margin-top: 150px;
+    margin-left: 0;
+  }
+  .midi10{
+    margin-top: 150px;
+    margin-left: 0;
+  }
+  .midi11{
+    margin-top: 150px;
+    margin-left: 0;
+  }
+  #c-fluid2{
+    flex-direction: column;
+  }
+  .mini-container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer > div{
+    width: 100% !important;
+  }
+  .images span{
+    display: block;
+  }
+  .heading2{
+    font-size: 20px;
+  }
+  .heading3{
+    font-size: 20px;
+  }
+  .text1{
+    font-size: 16px;
+  }
+  .mini-container{
+    margin: 0;
+  }
+}
+  
