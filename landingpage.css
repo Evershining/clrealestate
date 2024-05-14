@@ -354,7 +354,7 @@ color: #a4a4a4;
 }
 
 /* media query */
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 596px) {
   .mini-container{
     flex-direction: column;
   }
