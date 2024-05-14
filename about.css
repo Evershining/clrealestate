@@ -34,7 +34,7 @@
     
   }
   .container1{
-    background-image: url(../realestateproject/images/image18.jpg);
+    background-image: url(images/image18.jpg);
     object-fit: cover;
     background-position: bottom;
     background-size: cover;
@@ -247,7 +247,7 @@
   } */
 }
 .image-container{
-  background-image: url(../realestateproject/images/image10.webp);
+  background-image: url(images/image10.webp);
   object-fit: cover;
   background-position: bottom;
   background-size: cover;

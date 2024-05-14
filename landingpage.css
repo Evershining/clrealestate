@@ -20,7 +20,7 @@
   
   
   .container2{
-    background-image: url(../realestateproject/images/DJI_0138-Optimised.jpg);
+    background-image: url(images/DJI_0138-Optimised.jpg);
     object-fit: cover;
     background-position: bottom;
     background-size: cover;
@@ -103,7 +103,7 @@
 .midi{
   width: 280px;
   height: 200px;
-  background-image: url(../realestateproject/images/image3.jpeg);
+  background-image: url(images/image3.jpeg);
   object-fit: cover;
   background-position: bottom;
   background-size: cover;
@@ -122,7 +122,7 @@
 .midi1{
   width: 280px;
   height: 200px;
-  background-image: url(../realestateproject/images/image6.jpeg);
+  background-image: url(images/image6.jpeg);
   object-fit: cover;
   background-position: bottom;
   background-size: cover;
@@ -138,7 +138,7 @@
 .midi2{
   width: 280px;
   height: 200px;
-  background-image: url(../realestateproject/images/image4.jpeg);
+  background-image: url(images/image4.jpeg);
   object-fit: cover;
   background-position: bottom;
   background-size: cover;
@@ -154,7 +154,7 @@
 .midi3{
   width: 280px;
   height: 200px;
-  background-image: url(../realestateproject/images/image7.jpeg);
+  background-image: url(images/image7.jpeg);
   object-fit: cover;
   background-position: bottom;
   background-size: cover;
@@ -170,7 +170,7 @@
 .midi4{
   width: 280px;
   height: 200px;
-  background-image: url(../realestateproject/images/image8.jpeg);
+  background-image: url(images/image8.jpeg);
   object-fit: cover;
   background-position: bottom;
   background-size: cover;
@@ -280,7 +280,7 @@ color: #fff;
 }
 
 .container5{
-  background-image:url(../realestateproject/images/DJI_0078-20-Percent.jpg);
+  background-image:url(images/DJI_0078-20-Percent.jpg);
   object-fit: cover;
   padding: 20px;
   margin: auto;
